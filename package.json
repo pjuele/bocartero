@@ -1,0 +1,17 @@
+{
+  "name": "bocartero",
+  "version": "0.0.1",
+  "description": "An ready-made nodeMailer wrapper for my apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "author": "Pablo Juele",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.8.0"
+  }
+}
