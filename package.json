@@ -1,8 +1,13 @@
 {
   "name": "bocartero",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A ready-made nodeMailer wrapper for my apps",
-  "keywords": [ "node", "nodemailer", "hotmail", "wdpj" ],
+  "keywords": [
+    "node",
+    "nodemailer",
+    "hotmail",
+    "wdpj"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
