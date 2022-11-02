@@ -69,7 +69,7 @@ I did a few websites for non-profit organizations and needed a free SMTP server.
 
 So as far as defaults go, I default to this. _History will judge me! :)_
 
-But of course you can configure your own SMTP server (I know - my referring to that as 'non-hotmail' is weird!)
+But of course you can configure your own SMTP server!
 
 Just set env variable **SMTP_SERVICE** to something other than 'hotmail'. It doesn't matter what (the actual value won't be used unless it's 'hotmail') but **_you do have to define it_**. It has to be present in your process.env object (to make sure you didn't omit it by mistake - this made sense at some point and is still the way it goes for now!)
 
