@@ -4,7 +4,7 @@
 
 BoCartero is a a very very simple Node.js + NodeMailer wrapper class created to be used in node backends.
 
-The intention behind it is to simply NodeMailer use and keep its impact on code readability to a minimmum (by relying on process.env variables and configuring NodeMailer transport directly from i.e. the projects's _.env_ file).
+The intention behind it is to simply NodeMailer use and keep its impact on code readability to a minimum by relying on process.env variables and configuring NodeMailer transport directly from i.e. the projects's _.env_ file.
 
 ## Installation
 
@@ -67,13 +67,13 @@ mailman.sendEmail(
 
 I did a few websites for non-profit organizations and needed a free SMTP server. I found out Gmail is (more secure but) extremely annoying. Even if you do things by the book, it's heuristic analysis might reject your request to send an email at potentially unpredictable times (at least in my tests). So I tried different options (such as Mailgun and others) but in the end the least complicated was good old 'hotmail' (Outlook.com free accounts).
 
-So as far as defaults go, I default to this. _History will judge me! :)_
+So as far as defaults go, I default to this. _History will judge me_ ¯\\_(ツ)_/¯
 
 But of course you can configure your own SMTP server!
 
 Just set env variable **SMTP_SERVICE** to something other than 'hotmail'. It doesn't matter what (the actual value won't be used unless it's 'hotmail') but **_you do have to define it_**. It has to be present in your process.env object (to make sure you didn't omit it by mistake - this made sense at some point and is still the way it goes for now!)
 
-¯\\_(ツ)_/¯
+In this case you also need to define the env vars **SMTP_HOST** and **SMTP_PORT**.
 
 ## License
 
