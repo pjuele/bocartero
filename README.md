@@ -2,7 +2,7 @@
 
 # BoCartero
 
-BoCartero is a a very very simple Node.js + NodeMailer wrapper class created to be used in node backends.
+BoCartero is a very very simple Node.js + NodeMailer wrapper class created to be used in node backends.
 
 The intention behind it is to simply NodeMailer use and keep its impact on code readability to a minimum by relying on process.env variables and configuring NodeMailer transport directly from i.e. the projects's _.env_ file.
 
