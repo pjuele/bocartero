@@ -2,11 +2,11 @@
   "name": "bocartero",
   "version": "1.0.1",
   "description": "A ready-made nodeMailer wrapper for my apps",
+  "keywords": [ "node", "nodemailer", "hotmail", "wdpj" ],
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "mocha"
+    "dev": "nodemon index.js"
   },
   "author": "Pablo Juele",
   "license": "ISC",
