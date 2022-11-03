@@ -64,6 +64,7 @@ class BoCartero {
   async sendEmail(
     subject,
     html = text, // If html was not provided, default to text
+    replyTo,
     emailTo,
     text = "NOTE: this email was sent in HTML format only." // if text was not provided. default to a clarification message (so we make it visible)
   ) {
@@ -82,6 +83,7 @@ class BoCartero {
 
     var mailOptions = {
       from: SMTP_EMAIL_FROM,
+      replyTo: replyTo,
       to: emailTo ? emailTo : SMTP_DEFAULT_EMAIL_TO,
       subject,
       text,
